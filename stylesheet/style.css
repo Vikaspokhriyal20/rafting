@@ -1,13 +1,40 @@
-*
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+
+html {
+    font-family: 'Arya', monospace;
+}
+
+#header {
+    background: linear-gradient(to right, #FAE3FF, #D3BBFB);
+    height: 400px;
+}
+
+.header-content
+{
+    width: 60%;
+    margin-inline: auto;
+    /* text-align: center; */
+    padding-block: 20px;
+    letter-spacing: 1px;
+}
+
+#book-btn
+{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: crimson;
+}
+#book-btn a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
     
 }
-
-html
-{
-    font-family: 'Arya',monospace;
-}
-
